@@ -1411,13 +1411,19 @@ section {
    height: 100%;
 }
 .testimonial-section .quote p {
-   font-size: 15px;
+   font-size: 20px;
    font-weight: 300;
    line-height: 1.1;
    font-style: italic;
    margin: 0;
    color: #F5F8FD;
 }
+@media (max-width: 768px) {
+  .testimonial-section .quote p {
+    font-size: 12px;
+  }
+}
+
 .quote-icon {
    width: 19px;
    display: block;
