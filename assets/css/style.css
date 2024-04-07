@@ -1385,6 +1385,14 @@ section {
    padding-left: 50px;
    padding-right: 0px;
 }
+
+@media (max-width: 768px) {
+  .testimonial-section .quote {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .swiper-container.testimonial {
    height: 50vh;
    overflow: hidden;
